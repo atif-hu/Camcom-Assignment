@@ -2,7 +2,6 @@
 
 This docmentation provides overview for the QC Portal API. The API is implemented using Python, Flask and MySQL DB.
 
-## Problem Statement
 In a manual QC (Quality Check) process, there is a portal from which each individual QC task is assigned. 
 The portal needs to check how many QC persons are logged in and which of the logged in persons are free, as in not on a task, and automatically assign tasks. 
 Once the task is finished the person will automatically get assigned the next task if any is pending. 
